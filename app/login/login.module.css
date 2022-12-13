@@ -1,0 +1,32 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.login_block {
+    width: 50%;
+    background-color: var(--light-text);
+    padding: 2rem 3em;
+    border-radius: 6px;
+}
+
+.login_block h3 {
+    color: var(--dark-text);
+}
+
+.login_block input {
+    padding: 1rem 2em;
+    background-color: var(--background-main);
+    border-radius: 6px;
+    color: var(--light-text);
+}
+
+.login_block button {
+    padding: 1rem 2em;
+    background-color: var(--background-main);
+    border-radius: 6px;
+    color: var(--light-text);
+    width: 100%;
+}

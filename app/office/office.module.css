@@ -1,0 +1,99 @@
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 15px solid #F2F8F8;
+	border-top: 5px solid #F2F8F8;
+	border-collapse: collapse;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F2F8F8;
+    color: var(--background-main);
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+
+.table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+    text-align: center;
+}
+
+.control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+.control img {
+	cursor: pointer;
+}
+
+.actions button {
+	width: 40px;
+	height: 40px;
+	background-color: #F2F8F8;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table input {
+    padding: 1rem 2em;
+    background-color: var(--light-text);
+    border-radius: 6px;
+    color: var(--background-main);
+}
+
+.table select {
+	padding: 1rem 2em;
+	padding-right: 3em;
+	background-color: var(--light-text);
+    border-radius: 6px;
+    color: var(--background-main);
+}
+
+.search {
+	padding: 1rem 2em;
+    background-color: var(--light-text);
+    border-radius: 6px;
+    color: var(--background-main);
+}
+
+.search_btn {
+	padding: 1rem 2em;
+	background-color: var(--light-text);
+    border-radius: 6px;
+    color: var(--background-main);
+}
+
+.sort {
+	padding: 1rem 2em;
+	padding-right: 3em;
+	background-color: var(--light-text);
+    border-radius: 6px;
+    color: var(--background-main);
+}
+
+.labels {
+	background-color: var(--light-text);
+	border-radius: 6px;
+	padding: 0.7rem 1.5em;
+	color: green;
+	border: 3px solid green;
+	cursor: pointer;
+}
+
+.labelsOff {
+	background-color: var(--light-text);
+	border-radius: 6px;
+	padding: 0.7rem 1.5em;
+	color: red;
+	border: 3px solid red;
+	cursor: pointer;
+}

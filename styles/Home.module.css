@@ -1,0 +1,15 @@
+.Home {
+  display: flex;
+  align-items: center;
+  height: 88vh;
+}
+
+.Home h1{
+  font-size: 4em;
+  width: 70%;
+}
+
+.Home h4 {
+  color: rgb(105, 108, 133);
+  width: 70%;
+}
