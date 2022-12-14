@@ -382,7 +382,7 @@ export default function OfficePage() {
                             {filter.car_owner && <th>Car owner</th>}
                             {filter.buyer && <th>Buyer</th>}
                             {filter.manager && <th>Manager</th>}
-                            <th>Control</th>
+                            {/* <th>Control</th> */}
                         </tr>
                     </thead>
                     <tbody>
@@ -499,7 +499,7 @@ export default function OfficePage() {
                                         {filter.manager && <td>{el.manager}</td>}
                                     </>
                                 }
-                                <td>
+                                {/* <td>
                                     {
                                         opened == 'edit_'+el.id ?
                                         <button onClick={changeSell}>Change</button>
@@ -523,7 +523,7 @@ export default function OfficePage() {
                                         </div>
                                     }
                                     
-                                </td>
+                                </td> */}
                             </tr>)
                         })}
                     </tbody>

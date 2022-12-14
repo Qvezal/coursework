@@ -47,33 +47,33 @@ export default function Actions({open, Save, callPrint}) {
 
             <Spacer left="1"/>
 
-            <button id='filter' onClick={open}>
+            {/* <button id='filter' onClick={open}>
                 <Image
                     src={filter}
                     alt="filter"
                     height="15"
                 />
-            </button>
+            </button> */}
 
             <Spacer left="1"/>
 
-            <button id='save' onClick={Save}>
+            {/* <button id='save' onClick={Save}>
                 <Image
                     src={save}
                     alt="save"
                     height="20"
                 />
-            </button>
+            </button> */}
 
             <Spacer left="1"/>
 
-            <button id='print' onClick={callPrint}>
+            {/* <button id='print' onClick={callPrint}>
                 <Image
                     src={print}
                     alt="print"
                     height="25"
                 />
-            </button>
+            </button> */}
 
         </Row>
         
