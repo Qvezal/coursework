@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable */
 import {useState} from 'react'
 import { useRouter } from 'next/navigation'
 
@@ -47,11 +48,11 @@ export default function Home() {
             .then(answer => {
 
                 if (answer.res == "wrong password") {
-                    setErrors(['password'])
+                    setErrors(['password']) 
                 }
 
                 if (answer.res == "ok") {
-                    localStorage.setItem("name", data.name)
+                    window.localStorage.setItem("name", data.name)
                     router.push("/office")
                 }
 

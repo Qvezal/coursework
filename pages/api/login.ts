@@ -1,7 +1,7 @@
 import { prisma } from "../../lib/prisma"
 import { NextRequest, NextResponse } from "next/server";
 
-export default async function getUser(req: NextRequest, res: NextResponse) {
+export default async function login(req: NextRequest, res: NextResponse) {
 
     const {name,password} = JSON.parse(req.body);
 

@@ -15,7 +15,7 @@ model Car {
   car_name String
   owner    String
   sell     Sell   @relation(fields: [sellId], references: [id])
-  sellId   Int
+  sellId   Int    @unique
 }
 
 model Seller {
