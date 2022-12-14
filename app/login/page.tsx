@@ -9,7 +9,7 @@ import Spacer from '@/components/std/Spacer';
 
 import styles from './login.module.css'
 
-export default function Home() {
+export default function Login() {
 
     const router = useRouter();
     const [LoginData, setLoginData] = useState({
